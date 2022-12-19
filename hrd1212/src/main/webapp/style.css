@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@charset "UTF-8";
+*{margin:0;padding:0}
+a{text-decoration:none;color:inherit;}
+html, body{
+	width:100%;
+	height:100%
+}
+header{	
+	height:12%;
+	background-color:#999;
+	color:black;
+	display:flex;
+	justify-content:space-between;
+}
+header .left{
+	line-height:100px;
+
+	
+}
+header .right{	
+	margin:50px 10px 0 0;
+	
+}
+
+nav{
+	width:100%;
+	height:5%;
+	background-color:black;	
+	text-align:center;
+	color:white;
+	
+}
+nav ul{
+	margin:0 auto;
+	display:flex;
+	margin:0 auto;
+	list-style:none;
+}
+nav li {	
+	padding:15px 30px;
+}
+section{	
+	margin:0 auto;
+	height:78%;
+	background-color:#eee;	
+}
+section img{
+	display:block;
+	margin:0 auto;
+	width:90%;
+	height:100%;
+}
+section h3{
+	padding:15px 0;
+	text-align:center;
+}
+section .insert_table{
+	width:40%;
+	border:1px solid black;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+.insert_table tr,td,th{
+	border:1px solid black;
+	height:40px;	
+}
+.insert_table th{
+	width:25%;
+	text-align:center;
+}
+.insert_table,td input{
+	height:20px;
+	magin:0px 0px 0px auto;
+}
+.last{
+	text-align:center;
+}
+.last .buttons{
+	background-color:#777;
+	border-color:#777;
+	color:#fff;
+	width:15%;
+}
+.select_table{
+	width:60%;
+	border:1px solid black;
+	margin:0 auto;
+	border-collapse:collapse;	
+	
+}
+.select_table td{
+	text-align:center;	
+	height:30px;
+}
+.select_table .tdimg{
+	display:flex
+}
+.select_table td img{
+	width:40px;
+	height:15px;
+}
+#t1{
+	margin:0 0 0 20%;
+	padding-bottom:10px;
+}
+.insertbutton{
+	text-align:center;
+	margin:20px 0;
+}
+.insertbutton a{
+	padding:10px 20px;
+	background-color:#444;
+	color:#fff;
+}
+.btn{
+	margin:15px auto;
+	text-align:center;
+}
+.btn button{
+	width:150px;
+	height:30px;
+	background-color:#444;
+	color:#fff;
+}
+#fd{
+	margin:0 0 0 2%;
+	padding:0 10px;
+	width:20%;
+	height:5%;
+}
+
+footer{	
+	height:5%;
+	background-color:#666;
+	color:white;
+	text-align:center;
+}
